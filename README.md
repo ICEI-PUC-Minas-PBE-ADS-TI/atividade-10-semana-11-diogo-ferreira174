@@ -6,15 +6,20 @@ Imagine que a página principal (home-page) mostre uma visão dos vários itens 
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Descreva brevemente seu projeto:
+- Nome: Diogo Vieira Teodoro Ferreira
+- Matrícula: 1645894
+- Descreva brevemente seu projeto: Catálogo dinâmico de jogos, filmes e séries. A página principal consome uma estrutura de dados em JSON para renderizar os cards de forma automática, enquanto uma única página de detalhes utiliza parâmetros na URL (query string) para identificar o ID do item clicado e carregar suas informações completas na tela, eliminando totalmente a necessidade de duplicar arquivos HTML e mantendo a arquitetura do código limpa e eficiente.
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - HOME-PAGE - AQUI >>
+<<  HOME-PAGE  >>
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHES - AQUI >>
+![alt text](image.png)
+
+<<  TELA DE DETALHES  >>
+
+![alt text](image-1.png)
+
 
 ## Dados em JSON
 Inclua abaixo a estrutura de dados definida para o seu projeto, apresentando pelo menos dois exemplos de registros em formato JSON.
@@ -24,15 +29,30 @@ Inclua abaixo a estrutura de dados definida para o seu projeto, apresentando pel
   "animes": [
     {
       "id": 1,
-      "nome": "Naruto",
-      "genero": "Ação",
-      "destaque": true
+      "titulo": "Grand Theft Auto IV",
+      "categoria": "Jogo", 
+      "pequenadescrição": "Pequena descrição sobre o tema",
+      "descrição": "Uma descrição maior explicando o tema",
+      "nota": "10",
+      "extra": "Mostrando os detalhes",
     },
     {
       "id": 2,
-      "nome": "Fullmetal Alchemist",
-      "genero": "Aventura",
-      "destaque": false
+      "titulo": "Dexter",
+      "categoria": "Série", 
+      "pequenadescrição": "Pequena descrição sobre o tema",
+      "descrição": "Uma descrição maior explicando o tema",
+      "nota": "10",
+      "extra": "Mostrando os detalhes",
+    },
+    {
+      "id": 3,
+      "titulo": "Batman: O Cavaleiro das Trevas",
+      "categoria": "Filme", 
+      "pequenadescrição": "Pequena descrição sobre o tema",
+      "descrição": "Uma descrição maior explicando o tema",
+      "nota": "10",
+      "extra": "Mostrando os detalhes",
     }
   ]
 }
