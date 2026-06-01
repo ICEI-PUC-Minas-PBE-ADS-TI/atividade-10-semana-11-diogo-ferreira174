@@ -26,7 +26,7 @@ Inclua abaixo a estrutura de dados definida para o seu projeto, apresentando pel
 
 ```json
 {
-  "animes": [
+  "itens": [
     {
       "id": 1,
       "titulo": "Grand Theft Auto IV",
